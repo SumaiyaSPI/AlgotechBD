@@ -1,0 +1,275 @@
+*{padding: 0;
+margin: 0;}
+img{max-width: 100%;}
+a{ text-decoration: none;}
+
+h1,h2,h3,h4{
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+margin-top: 0px;
+
+color: #10161A;
+}
+
+/*hrader*/
+.manu_logo{
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 65px;
+    width: 100%;
+    transition: .3s;
+    z-index:1;
+    padding: 5px 100px;
+ 
+   
+}
+#nav.red{
+    background:white;
+    height:70px;
+    width: 100%; 
+}
+
+#nav.logo{
+    width: 180px;
+    float: left;
+    height: 30px;
+   margin-top: 5px
+    
+}
+#nav.main_manu.manu .navbar-nav .nav-item .nav-link{
+    color:black;
+    font-weight: 600; 
+}
+
+.header_section{
+    height: 100vh;
+    background: url('http://algotech.com.bd/img/background1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+   height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+}
+
+.logo img{
+    width: 180px;
+}
+
+
+.manu .navbar-nav .nav-item .nav-link{
+    color:#6195FF;
+    font-weight: 600; 
+}
+
+.manu .navbar-nav .nav-item .nav-link:hover{
+   color: #6195FF;
+    border-bottom:2px solid #6195FF;
+}
+
+.slider_txt h1{
+   margin-top: 220px;
+    color:white;
+    font-size: 3.5rem;
+}
+.slider_txt p{
+    color:white;
+    font-weight: 600;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: forestgreen;
+}
+
+    /*service*/
+
+.service_section{
+    margin-top: 120px;
+    margin-bottom: 190px;
+}
+.h1_border{
+    display: block;
+    height: 4px;
+    width: 40px;
+    background-color: #6195ff;
+     margin: auto;
+   
+}
+.title{
+    margin-bottom: 85px;
+}
+.title h1{
+    font-size: 52px;
+}
+.box h3{
+    font-size: 21px;
+    margin: 20px 0;
+}
+
+.box a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.box{
+    padding: 35px 0px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.box_overlay{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:-100%;
+    right:0;
+    height: 100%;
+    width: 100%;
+    transition:.3s;
+}
+
+.box:hover .box_overlay{
+    background:black;
+    width: 100%;
+    left:0;
+     z-index:-1;
+  
+}
+.box:hover h3{
+    color:white;
+   
+}
+
+    /*course*/
+
+.box_one{
+    position: relative;
+}
+.box_one i{
+    position: absolute;
+     top: 57px;
+    left: 20px;   
+
+}
+.box_one h3{
+   padding-left: 50px;
+    
+}
+
+    /*about*/
+.slider_section{
+    margin: 120px 0;
+    background-color: #FAFAFA;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    padding: 120px 0px;
+}
+.rpt{
+    margin: 0;
+}
+.choose p{
+    margin-top: 50px;
+  color: #868F9B;
+    font-size: 16px;
+}
+.choose span{
+   color: #868F9B; 
+    font-size: 16px;
+    line-height: 40px;
+}
+.choose i{
+   color: #6195ff;
+    font-size: 26px;
+}
+
+    /*contact*/
+.box p{
+   color: #868F9B;
+padding: 17px 0;
+font-weight: 600;
+  
+}
+
+input{
+ display: block;
+width: 100%;
+height: calc(2.25rem + 2px);
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 0;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background: #f4f4f4;
+    opacity: .5;
+}
+.form-control{
+    border:0; 
+     background: #f4f4f4;
+    opacity: .5;
+}
+.button {
+    margin-top: 30px;
+}
+
+    /*footer*/
+.footer_section{
+   background-color: #1C1D21;
+    margin-top: 120px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer ul li a {
+    color: white;
+background: #6195ff;
+padding: 14px 19px;
+border-radius: 5px;
+display: block;
+margin: 44px 0;
+}
+.footer p{
+    color: #868F9B;
+    text-transform: uppercase;
+}
+
+
+/*media quey*/
+@media (max-width: 480px) {
+    .manu_logo{
+        background: white;
+		border-bottom:1px solid #ddd;
+    }
+    .slider_txt h1 {
+    font-size: 2.5rem;
+    }
+    .title h1 {
+    font-size: 35px;
+    width: 75%;
+    margin:0px auto 20px;
+
+    }
+    .
+    
+    
+    
+    
+    
+}
+
+
+
+		
